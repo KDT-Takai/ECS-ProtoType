@@ -5,9 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="ECSProtoType\System">
-      <UniqueIdentifier>{09c22541-6941-486c-89d2-328af9d844f1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ECSProtoType\Obj">
       <UniqueIdentifier>{a8460960-7fa5-4019-be8b-fa08d158ea62}</UniqueIdentifier>
     </Filter>
@@ -16,6 +13,18 @@
     </Filter>
     <Filter Include="ECSProtoType\ComponentManager">
       <UniqueIdentifier>{5d635285-6860-4a7b-b447-f2db639bc9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECSProtoType\System">
+      <UniqueIdentifier>{a38d584f-52ca-4717-9382-1121a5da666d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECSProtoType\System\!System">
+      <UniqueIdentifier>{09c22541-6941-486c-89d2-328af9d844f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECSProtoType\System\MovementSystem">
+      <UniqueIdentifier>{7587efb7-81a1-49f6-8755-f4bb69d1d1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECSProtoType\System\HealthSystem">
+      <UniqueIdentifier>{5be6f641-3a3f-4e18-bae2-fdf7d0451cba}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -26,7 +35,13 @@
       <Filter>ECSProtoType\ComponentManager</Filter>
     </ClInclude>
     <ClInclude Include="System.h">
-      <Filter>ECSProtoType\System</Filter>
+      <Filter>ECSProtoType\System\!System</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.h">
+      <Filter>ECSProtoType\System\MovementSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthSystem.h">
+      <Filter>ECSProtoType\System\HealthSystem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

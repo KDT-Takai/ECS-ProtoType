@@ -46,6 +46,11 @@ namespace std {
 struct Position {
 	float x, y;	// DxLib では float 型が推奨されているので float
 };
+// Velocity コンポーネント
+struct Velocity {
+	float vx; // x方向の速度
+	float vy; // y方向の速度
+};
 // Health コンポーネント
 struct Health {
 	int hp;

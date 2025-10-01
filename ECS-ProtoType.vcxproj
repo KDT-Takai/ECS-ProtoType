@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClInclude Include="ComponentManager.h" />
     <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="HealthSystem.h" />
+    <ClInclude Include="MovementSystem.h" />
     <ClInclude Include="System.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
